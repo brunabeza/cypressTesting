@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es2019",
+      "lib": ["es2019", "dom"],
+      "module": "esnext",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist",
+      "rootDir": "./cypress",
+      "types": ["cypress"],
+      "include": ["cypress/**/*.ts"],
+      "exclude": ["node_modules", "dist"]
+    }
+  }
+  
