@@ -16,8 +16,7 @@ describe('Login', () => {
   })
 
   it('Should be able to logout successfully', () => {
-    loginPage.login('Arvilla_Hegmann', 's3cret')
-    cy.get(loginMappings.sidenavSignoutButtonSelector).click()
+    loginPage.logout('Arvilla_Hegmann', 's3cret')
 
     cy.get(loginMappings.signinTitleSelector).should('contain', 'Sign in')
   })
