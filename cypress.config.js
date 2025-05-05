@@ -3,7 +3,8 @@ const { exec } = require('child_process')
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'http://localhost:3000',  
+    //baseUrl: 'http://localhost:3000', 
+    baseUrl: 'https://www.wikipedia.org', 
 
     setupNodeEvents(on, config) {
       // Configurar o reporter Mochawesome
